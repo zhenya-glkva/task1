@@ -173,6 +173,7 @@ fun task5() {
     println("Введите целое основание степени x:")
     val xInput = readLine()
 
+
     val x = xInput?.trim()?.toLongOrNull()
 
     if (x == null) {
